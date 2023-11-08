@@ -1,1 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.anchor {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the color from the parent element */
+}
 /* You can add global styles to this file, and also import other style files */
+.content-end {
+  display: flex;
+  float: right; /* Align text to the right */
+}

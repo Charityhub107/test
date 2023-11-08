@@ -1,0 +1,630 @@
+<div class="header">
+  <div class="d-inline">Empowering Charity Events</div>
+
+  <div class="d-inline content-end">
+    <p
+      class="mx-1 desktop-text"
+      (click)="openScrollableContent(TermsAndCondition)"
+    >
+      Terms and Conditions
+    </p>
+    <p
+      class="mobile-text mx-2"
+      (click)="openScrollableContent(TermsAndCondition)"
+    >
+      T & C
+    </p>
+    <p class="mx-1 desktop-text" (click)="openScrollableContent(PrivacyPolicy)">
+      <fa-icon [icon]="['fas', 'circle-info']" class="mr-1"></fa-icon>
+      Privacy Policy
+    </p>
+    <p class="mobile-text mx-2" (click)="openScrollableContent(PrivacyPolicy)">
+      <fa-icon [icon]="['fas', 'circle-info']"></fa-icon>
+    </p>
+    <a href="mailto:info@charityhub.com" class="mx-1 desktop-text anchor">
+      <fa-icon [icon]="['fas', 'envelope']" class="mr-1"></fa-icon>
+      info@charityhub.com
+    </a>
+    <a href="mailto:info@charityhub.com" class="mx-2 mobile-text anchor">
+      <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+    </a>
+    <a href="tel:+11234567890" class="mx-2 desktop-text anchor">
+      <fa-icon [icon]="['fas', 'phone']" class="mr-1"></fa-icon>
+      (201) 694-3576
+    </a>
+    <a href="tel:+11234567890" class="mx-2 mobile-text anchor">
+      <fa-icon [icon]="['fas', 'phone']"></fa-icon>
+    </a>
+  </div>
+</div>
+
+<ng-template #PrivacyPolicy let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Charity Hub™ Privacy Policy</h4>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body overflow-auto">
+    <p>
+      This Privacy Policy (&ldquo;Policy&rdquo;) describes how Charity Hub, LLC
+      ("Charity Hub," &ldquo;we,&rdquo; or &ldquo;us&rdquo;) collects, uses, and
+      discloses information.<strong
+        ><u
+          >Please read the entire Privacy Policy before using our Website.</u
+        ></strong
+      >
+    </p>
+    <p>
+      Terms not otherwise defined in this Privacy Policy have the definitions
+      assigned in the Charity Hub Terms of Use (sometimes referred to as the
+      &ldquo;TOU&rdquo;).
+    </p>
+    <p>
+      &ldquo;Personal information&rdquo; means information about an individual
+      who is either identified or reasonably identifiable. This policy applies
+      to individuals.
+    </p>
+    <h4>1. Information We Collect</h4>
+    <p>
+      We will not collect Personal Information about You unless You provide us
+      that information voluntarily such as via correspondence and other
+      information that You send to us.
+    </p>
+    <p>
+      We may collect certain other information automatically when You visit the
+      Website, including:
+    </p>
+    <ul>
+      <li>Your browser type and operating system;</li>
+      <li>
+        Your Internet Protocol (IP) address, which is the number automatically
+        assigned to Your computer whenever You access the Internet and that can
+        sometimes be used to derive Your general geographic area;
+      </li>
+      <li>
+        Other unique identifiers, including mobile device identification
+        numbers;
+      </li>
+      <li>Pages You view and links You click on within the Services;</li>
+    </ul>
+    <p>
+      We may use cookies, pixel tags, and similar technologies to automatically
+      collect this information. Cookies are small bits of information that are
+      stored by Your computer&rsquo;s web browser. Pixel tags are very small
+      images or small pieces of data embedded in images, also known as "web
+      beacons" or "clear GIFs,&rdquo; that can recognize cookies, the time and
+      date a page is viewed, a description of the page where the pixel tag is
+      placed, and similar information from Your computer or device.
+    </p>
+    <p>
+      By using the Website, You consent to our use of cookies and similar
+      technologies. You can decide if and how Your computer will accept a cookie
+      by configuring Your preferences or options in Your browser. However, if
+      You choose to reject cookies, You may not be able to use certain online
+      products, services, or features on the Website.
+    </p>
+    <p>
+      Some web browsers may transmit &ldquo;do-not- track&rdquo; signals to the
+      websites with which a user communicates. Because of differences in how web
+      browsers incorporate and activate this feature, it is not always clear
+      whether users intend for these signals to be transmitted, or whether they
+      even are aware of them. Because there currently is no industry standard
+      concerning what, if anything, websites should do when they receive such
+      signals, Charity Hub currently does not take action in response to these
+      signals.
+    </p>
+    <h4>2. How We Use Collected Information</h4>
+    <p>
+      We may use information that we collect through the Website for a variety
+      of purposes, including to:
+    </p>
+    <ul>
+      <li>
+        Provide You with the products, promotions, services, newsletters, and
+        information You request and respond to correspondence that we receive
+        from You;
+      </li>
+      <li>Customize and personalize Your use of the services;</li>
+      <li>
+        Contact You via e-mail and otherwise with respect to our services;
+      </li>
+      <li>
+        Contact You with surveys, legal notices, and other information that may
+        be relevant to Your use of our services;
+      </li>
+      <li>
+        Maintain or administer the Website, perform business analyses, or for
+        other internal purposes to improve the quality of our business, the
+        Website, and other products and services we offer; and
+      </li>
+      <li>
+        As otherwise described to You at the point of collection or pursuant to
+        Your consent, and as required or permitted by applicable law.
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <h4>3. With Whom We Share Information</h4>
+    <p>
+      We want You to understand when and with whom we may share the information
+      we collect.
+    </p>
+    <ul>
+      <li>
+        Corporate Parents, Affiliates, and Subsidiaries: We may share Your
+        information with our corporate parents, subsidiaries, and other
+        affiliated entities for the purposes referred to in this Policy.
+      </li>
+      <li>
+        Service Providers. We may share Your information with service providers
+        that perform certain functions or services on our behalf, such as to
+        host the Website, manage databases, host an e-commerce platform, perform
+        analyses, or send communications for us.
+      </li>
+      <li>
+        Other Parties When Required By Law or as Necessary to Protect the
+        Services. We may disclose Your information to third parties in order to
+        protect the legal rights, safety, and security of Charity Hub, our
+        corporate parents, affiliates, and subsidiaries, and the users of our
+        Website; to enforce our Terms of Use; to prevent fraud (or for risk
+        management purposes); and to comply with or respond to law enforcement
+        or legal process or a request for cooperation by a government or other
+        entity, whether or not legally required.
+      </li>
+      <li>
+        In Connection With a Transfer of Assets. If we sell all or part of our
+        business, or make a sale or transfer of assets, or are otherwise
+        involved in a merger, acquisition or business transfer, or in the event
+        of bankruptcy, we may transfer Your information to one or more third
+        parties as part of that transaction.
+      </li>
+      <li>
+        Other Parties with Your Consent or as Authorized by Law. We may share
+        information with third parties when You consent to such sharing
+        (including when You post information to a public area of the Website, if
+        any, and otherwise as required or permitted by applicable law.
+      </li>
+      <li>
+        Aggregate Information. We may disclose to third parties information that
+        does not describe or identify individual users, such as aggregate
+        website usage data or demographic reports.
+      </li>
+    </ul>
+    <p>
+      We may allow third parties to place and read their own cookies, web
+      beacons, Local Shared Objects, and similar technologies to collect
+      information through the Services. For example, our third-party service
+      providers may use these technologies to collect information that helps us
+      with traffic measurement, research, and analytics.
+    </p>
+    <h4>4. Security</h4>
+    <p>
+      Please note that no data transmission or storage can be guaranteed to be
+      100% secure. As a result, while we strive to protect Your information and
+      privacy, we cannot guarantee or warrant the security of any information
+      You disclose or transmit to us online and cannot be responsible for the
+      theft, destruction, or inadvertent disclosure of Your information.
+    </p>
+    <p>
+      Should Your Personal Information be provided to us or collected as set
+      forth in this Policy, it will be retained only as long as necessary for
+      the fulfillment of the purposes referred to in this Policy.
+    </p>
+    <h4>5. Children&rsquo;s Privacy</h4>
+    <p>
+      Charity Hub does not knowingly collect, use, or disclose information,
+      including Personal Information, from children under the age of 13 without
+      prior parental consent, except as permitted by the Children&rsquo;s Online
+      Privacy Protection Act (&ldquo;COPPA&rdquo;) or other applicable law. If
+      we learn that we inadvertently have collected identifying Personal
+      Information from an individual under the age of 13, we will promptly
+      delete that information from our system.
+    </p>
+    <h4>6. Privacy Policy Updates</h4>
+    <p>
+      We may modify this Policy at any time by posting revisions to the Website
+      or providing other appropriate notice. Your continued use of the Website
+      after any modification to the Policy will constitute Your acceptance of
+      the new terms and conditions of the Policy.
+    </p>
+    <h4>7. Links to Third Party Sites and Services</h4>
+    <p>
+      The Website may contain links to other websites or online services that
+      are operated and maintained by third parties and that are not under the
+      control of or maintained by Charity Hub. Such links do not constitute an
+      endorsement by Charity Hub of those other websites, the content displayed
+      therein, or the persons or entities associated therewith. This Policy does
+      not apply to this third-party content. We encourage You to review the
+      privacy policies of these third-party websites or services.
+    </p>
+    <h4>8. International Users</h4>
+    <p>
+      The Website is intended for users who are residents of the USA only. If
+      You are not a resident of the USA and choose to use the Website, by doing
+      so, You consent to the collection, storage, processing, and transfer of
+      Your information in and to the United States, or other countries and
+      territories. Please note that privacy laws in such jurisdictions may
+      differ from those of Your jurisdiction, and that Your personal information
+      may be accessed by law enforcement authorities or the courts in such
+      jurisdictions.
+    </p>
+    <h4>9. California Privacy Rights</h4>
+    <p>
+      California residents are entitled once a year, free of charge, to request
+      and obtain certain information regarding our disclosure, if any, of
+      certain categories of Personal Information to third parties for their
+      direct marketing purposes in the preceding calendar year. To obtain such
+      information, please e-mail Your request to&nbsp;<a
+        href="mailto:info@charityhub.com"
+        >info@Charity Hub.com.</a
+      >
+    </p>
+    <h4>10. Updating Communications Preferences (Opt Out)</h4>
+    <p>
+      You may choose to receive promotional offers, newsletters, and similar
+      communications from us regarding products and services of Charity Hub and
+      our affiliated organizations. You may opt out of receiving such
+      communications from us by communicating Your preference to us using the
+      contact information provided at the end of this Policy, or in the case of
+      e-mails, by clicking on the opt-out or &ldquo;unsubscribe&rdquo; link
+      included at the bottom of the e-mails You receive.
+    </p>
+    <h4>11. Withdrawing Consent</h4>
+    <p>
+      You can withdraw consent at any time to collection, use or disclosure, if
+      any, of Your personal Information, subject to legal or contractual
+      restrictions and reasonable notice. You may do so by using the contact
+      information provided at the end of this Policy. We will inform You of any
+      implications of such withdrawal. We may be unable to remove information to
+      the extent that it is permitted or required to be retained by applicable
+      law or document retention and data backup or disaster-recovery policies,
+      or if removal is not practicable due to technological reasons.
+    </p>
+    <h4>12. Contact Us</h4>
+    <p>
+      All correspondence concerning this Policy should be sent to the following
+      address:&nbsp;<a href="mailto:info@charityhub.com"
+        >info@CharityHub.com.</a
+      >
+    </p>
+    <p>Dated: October 9, 2017</p>
+  </div>
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-light"
+      (click)="modal.close('Close click')"
+    >
+      Close
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #TermsAndCondition let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Charity Hub™ Terms of Use</h4>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body overflow-auto">
+    <p>
+      These Terms of Use govern each user&rsquo;s (referred to as
+      &ldquo;You&rdquo; and &ldquo;Your&rdquo;) use of the&nbsp;<a
+        href="https://charityhub-2e53f.firebaseapp.com/www.charityhub.com"
+        target="_blank"
+        >www.charityhub.com</a
+      >&nbsp;website and Charity Hub services (collectively the
+      &ldquo;Website&rdquo;). By viewing the Website, contacting Charity Hub via
+      the Website or making a donation via the Website, You agree to comply
+      with, and be bound by, the obligations set forth in these Terms of Use
+      (&ldquo;TOU&rdquo;). Therefore, You should read these TOU carefully.
+    </p>
+    <p>
+      The following describes the terms of Your relationship with Charity Hub,
+      LLC (&ldquo;Charity Hub&rdquo; or &ldquo;us,&rdquo; &ldquo;we&rdquo; or
+      &ldquo;our&rdquo;):
+    </p>
+    <h4>1. Users:</h4>
+    <p>
+      The Website is intended for use by residents of the United State of
+      America only. Your use of the Website is subject to the laws of the State
+      of New York, USA, with giving effect to the principles of conflicts of
+      laws. Although You may reside in a state other than New York, You agree to
+      be bound by the governing law agreed to in these TOU.
+    </p>
+    <h4>2. Donations</h4>
+    <p>
+      Charity Hub is a fundraising company which enters into agreements with the
+      not-for- profit entities listed on our Website. If You donate to an
+      organization listed on the Website, Your payment/donation transaction will
+      be processed by a third party processor, PayPal&reg;. Charity Hub cannot
+      and does not make any warranties or representations concerning the PayPal
+      services. The Pay Pal terms of Use and Privacy Policy may be found here:
+    </p>
+    <p>
+      <a
+        href="https://www.paypal.com/us/webapps/mpp/ua/legalhub-full"
+        target="_blank"
+        >https://www.paypal.com/us/webapps/mpp/ua/legalhub-full</a
+      >&nbsp;<a
+        href="https://www.paypal.com/us/webapps/mpp/ua/privacy-full"
+        target="_blank"
+        >https://www.paypal.com/us/webapps/mpp/ua/privacy-full</a
+      ><br /><br />
+    </p>
+    <p>
+      Donations to registered 501(c)(3) corporations may be tax deductible.
+      Information concerning tax deductions for charitable giving can be found
+      on the Internal Revenue Service website at&nbsp;<a
+        href="https://www.irs.gov/credits-deductions/individuals/deducting-%20charitable-contributions-%20at-a-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20glance."
+        target="_blank"
+        >https://www.irs.gov/credits-deductions/individuals/deducting-
+        charitable-contributions- at-a- glance.</a
+      >&nbsp;You should consult Your tax advisor concerning the tax implications
+      of Your donation. Once a donation has been made it cannot be retracted.
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      To the best of our knowledge, each non-profit listed on the Website is a
+      registered 501(c)(3) corporation when listed on our Website. We cannot
+      guarantee the tax exempt status of a listed entity at the time of
+      donation. Therefore, we cannot represent nor guarantee,
+      rather&nbsp;<strong
+        ><u
+          ><em
+            >WE MUST DISCLAIM ALL LIABILITY FOR ANY CHANGE OF STATUS OR
+            MISREPRESENTATION OF OR BY A LISTED ENTITY. YOU ACKNOWLEDGE SUCH
+            DISCLAIMER AND WAIVE ANY AND ALL CLAIMS AGAINST CHARITY HUB ARISING
+            FROM OR CONCERNING THE LEGAL AND/OR TAX EXEMPT STATUS OF A LISTED
+            ENTITY AND/OR ANY DONATION(S).</em
+          ></u
+        ></strong
+      >
+    </p>
+    <h4>3. Privacy</h4>
+    <p>
+      Because the privacy of Your personal information is very important to us,
+      Charity Hub will not disclose to third parties any identifying personal
+      information gathered from You, if any, unless (a) we tell You how Your
+      information will be used and You give Charity Hub specific permission to
+      share this information, (b) Charity Hub is required to disclose such
+      information by any applicable law or legal process (like a subpoena or
+      court order), or (c) as otherwise set forth in the Charity Hub&nbsp;<a
+        >Privacy Policy</a
+      >, which is incorporated herein by this reference.
+    </p>
+    <p>
+      <u
+        ><em
+          >You acknowledge that You have read and understood Charity Hub&rsquo;s
+          Privacy Policy.&nbsp;</em
+        ></u
+      >Charity Hub may change its Privacy Policy at any time upon notice to its
+      users.
+    </p>
+    <h4>4. Charity Hub</h4>
+    <p>
+      You may receive emails from Charity Hub about other Website events and
+      entity listings added to the Website. In addition, by joining the Charity
+      Hub community, You may be invited to participate in user groups and other
+      marketing activities. If at any point You no longer wish to receive these
+      communications from us, You may opt out by communicating Your preference
+      to us using the contact information provided in our Privacy Policy, or in
+      the case of e-mails, by clicking on the opt-out or
+      &ldquo;unsubscribe&rdquo; link included at the bottom of the e-mails You
+      receive.
+    </p>
+    <h4>5. Age Requirements</h4>
+    <p>
+      The Website is intended only for, and is available only to, users who are
+      eighteen (18) years of age or older. If You are under the age of 18, You
+      may not use the Website.
+    </p>
+    <h4>6. Charity Hub&rsquo;s Role</h4>
+    <p>
+      Charity Hub&rsquo;s role is to facilitate online fundraising events. We
+      are not involved in the actual transaction between the entity and You as a
+      donator to the entity.&nbsp;<strong
+        ><u
+          ><em
+            >WE HAVE NO CONTROL OVER, AND ARE NOT RESPONSIBLE FOR AND HAVE NO
+            LIABILITY IN RELATION TO, THE ACTIONS OF ANY ENTITY LISTED ON THE
+            WEBSITE NOR ANY OTHER WEBSITE ACCESSIBLE VIA A LINK ON THE
+            WEBSITE.</em
+          ></u
+        ></strong
+      >&nbsp;There is no contract of sale nor other agreement separate from
+      these TOU between You and Charity Hub.
+    </p>
+    <h4>7. Links to Other Web Sites</h4>
+    <p>
+      The Website may contain links to third-party website and other
+      resources.&nbsp;<strong
+        ><u
+          >Charity Hub assumes no responsibility for the availability or content
+          of these outside sites and resources.</u
+        ></strong
+      >&nbsp;Therefore, any concerns You may have regarding any other site
+      should be directed to the relevant site administrator or webmaster.
+    </p>
+    <h4>8. Security</h4>
+    <p>
+      As set forth in the&nbsp;<a>Privacy Policy</a>, Charity Hub does not
+      capture or retain personally identifiable information of users. You are
+      responsible for maintaining the confidentiality and security of
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      Your information. Please notify Charity Hub immediately in the event of
+      You suspect any loss, theft or unauthorized disclosure of Your personal
+      information in relation to the Website.
+    </p>
+    <h4>9. Termination</h4>
+    <p>
+      Either party may terminate these TOU if the other party violates these
+      Terms in any important way.
+    </p>
+    <h4>10. Right to Use the Website</h4>
+    <p>
+      As long as You comply with these Terms, Charity Hub gives You the right to
+      use the Website. You agree not to modify, copy, disclose,
+      reverse-engineer, decompile, disassemble or create derivative works from
+      the Website. You agree to refrain from any interference in operation of
+      the Website. You agree not to remove or modify any of Charity Hub&rsquo;s
+      copyright and other proprietary notices.
+    </p>
+    <h4>11. Force Majeure</h4>
+    <p>
+      Charity Hub is not responsible for events beyond its commercially
+      reasonable control (e.g., wars, riots, labor strikes, natural disasters,
+      the infrastructure of the Internet, or any law, regulation or other act or
+      order of a court or government agency) and&nbsp;<strong
+        ><u
+          ><em>DISCLAIMS ALL LIABILITY TO YOU ARISING FROM SUCH EVENTS.</em></u
+        ></strong
+      >
+    </p>
+    <h4>12. Content</h4>
+    <p>
+      The information, advice, facts, opinions and other content appearing on
+      the Site posted, uploaded or distributed by any users or other third
+      parties are those of the respective authors and do not reflect the views
+      of Charity Hub.&nbsp;<strong
+        ><u
+          ><em
+            >CHARITY HUB ASSUMES NO RESPONSIBILITY OR LIABILITY FOR THESE
+            MATERIALS.</em
+          ></u
+        ></strong
+      >
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      By contributing to the Site, users represent that they have all of the
+      necessary rights to use the materials, communications or other information
+      that they have provided to or displayed on the Site. Charity Hub will have
+      the right to copy, sublicense and re-use these materials in any form,
+      media or technology and in any manner Charity Hub sees fit.
+    </p>
+    <h4>13. Intellectual Property</h4>
+    <p>
+      Charity Hub&trade; and Competition for Good&reg; are trademarks of or used
+      by permission by Charity Hub LLC and may not be used in any manner by You
+      or any third party. Trademarks of third parties appearing on the Website
+      are used with the permission of the trademark owner or pursuant to fair
+      use and You may not use such trademarks without the owner&rsquo;s
+      permission. The Website is protected by copyright, pursuant to applicable
+      copyright laws. Any other copying or any redistribution or publication of
+      any part of the Website is strictly prohibited without the express written
+      consent of the copyright owner. You may not modify, copy, publish,
+      transmit, sell, create derivative works from, perform, display or in any
+      way exploit any of the content contained on the Website.
+    </p>
+    <h4>14. Changes to these Terms of Use</h4>
+    <p>
+      Charity Hub reserves the right to change these TOU at any time upon notice
+      to users. Your continued use of the Website and or Services following such
+      a change notice shall be deemed to be acceptance of any such modification.
+      If You do not agree to any modification of these Terms, You must
+      immediately stop accessing the Website.
+    </p>
+    <h4>15. Legal Disclaimer and Release</h4>
+    <p>
+      <strong
+        >THE WEBSITE AND SERVICES ARE PROVIDED &ldquo;AS IS.&rdquo; CHARITY HUB
+        MAKES NO, and HEREBY DISCLAIMS ALL, REPRESENTATIONS, WARRANTIES,
+        CONDITIONS OR GUARANTEES OF ANY KIND, EITHER EXPRESS OR IMPLIED
+        (INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF
+        MERCHANTABILITY, MERCHANTABLE QUALITY, TITLE OR FITNESS FOR A PARTICULAR
+        PURPOSE), IN CONNECTION WITH THESE TOU. CHARITY HUB WILL NOT HAVE ANY
+        LIABILITY FOR ANY SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL OR
+        PUNITIVE DAMAGES, REGARDLESS OF THE BASIS OF THE CLAIM, EVEN IF IT HAS
+        BEEN ADVISED OR IS AWARE OF THE POSSIBILITY OF SUCH DAMAGES. CHARITY
+        HUB&rsquo;S AGGREGATE LIABILITY FOR MONETARY DAMAGES OF ANY KIND WILL
+        NOT EXCEED THE AMOUNTS PAID BY YOU IN CONNECTION WITH THE PARTICULAR
+        DISPUTE, IF ANY. THESE LIMITATIONS SHALL APPLY TO ALL ACTIONS, CLAIMS,
+        DEMANDS, AWARDS, JUDGMENTS, SETTLEMENTS, DAMAGES, LOSSES, COSTS,
+        LIABILITIES OR EXPENSES, WHETHER BASED ON BREACH OF CONTRACT, TORT
+        (INCLUDING NEGLIGENCE), STRICT LIABILITY IN TORT OR BY STATUTE OR
+        OTHERWISE, BREACH OF A FUNDAMENTAL TERM, FUNDAMENTAL BREACH OR
+        OTHERWISE.</strong
+      >
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <strong
+        >Because we are an intermediary, in the event that You have a dispute
+        with one or more non- profit entities listed on the Website or with a
+        processor of donations, You hereby release Charity Hub (and its
+        officers, directors, employees and agents) from any and all claims,
+        demands and damages of every kind and nature, known and unknown,
+        disclosed and undisclosed, arising out of or in any way connected with
+        same.</strong
+      >
+    </p>
+    <h4>16. Other Legal Items</h4>
+    <p>
+      A. Dispute resolution - As stated above in Section 1 of these TOU, the
+      laws of the State of New York govern the Website and all disputes arising
+      in relation to the Website and Your use of the Website. For disputes
+      involving an amount less than $10,000.00, You agree to resolve any dispute
+      through binding arbitration to be held in New York, New York or such other
+      location in the State of New York as Charity Hub elects in a reasonable
+      venue selected by Charity Hub. Any dispute for an amount exceeding
+      $10,000.00 shall be determined by a court of competent jurisdiction
+      located in New York. You hereby agree to submit to the jurisdiction and
+      venue and waive any objection You may otherwise have thereto.
+    </p>
+    <p>
+      B. Notices - Notices delivered under these TOU must be delivered in
+      writing and will be effective when received. Notices must be sent to : 80 Broad Street, 5th Floor, Manhattan, NY 10004
+    </p>
+    <p>
+      C. Complete Agreement - These TOU constitute the complete statement of
+      understanding between You and Charity Hub regarding the matters set forth
+      herein, and no other document or discussion will apply.
+    </p>
+    <p>
+      D. Assignment - You agree that these TOU are personal to You and may not
+      be transferred or assigned to anyone else without Charity Hub&rsquo;s
+      prior written consent.
+    </p>
+    <p>
+      E. Indemnification - You agree to indemnify and defend Charity Hub from
+      and against all claims, losses, expenses, damages, liabilities and costs,
+      including reasonable legal fees and expenses (collectively,
+      &ldquo;Losses&rdquo;), resulting from (a) any violation of these TOU and
+      (b) any activity (including negligent or wrongful conduct) by You in
+      connection with Your use of the Website. Charity Hub reserves the right,
+      at its own expense, to assume the exclusive defense and control of any
+      matter subject to indemnification hereunder.
+    </p>
+    <p>
+      F. Survival - The relevant provisions of these TOU, including, but not
+      limited to indemnification obligation, intellectual property rights, etc.,
+      will survive termination of these TOU.
+    </p>
+    <p>
+      The disclaimers and limitations of liability contained in these TOU also
+      benefit Charity Hub&rsquo;s suppliers and licensors and the non-profit
+      organizations listed on the Website.
+    </p>
+    <p>Dated: October 14th, 2022</p>
+  </div>
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-light"
+      (click)="modal.close('Close click')"
+    >
+      Close
+    </button>
+  </div>
+</ng-template>

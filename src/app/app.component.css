@@ -1,0 +1,45 @@
+.bg-blue{
+    padding:2px;
+    background-color: #74cbf3;
+    color:white;
+    width:100vw;
+    margin:auto;
+}
+.bg-d-blue{
+    padding:2px;
+    background-color: #003355;
+    color:white;
+    width:100vw;
+    margin:auto;
+}
+
+*{font-family: 'Roboto', sans-serif !important;}
+.card{
+    font-size: small;
+}
+.footer{
+    font-size: small;
+}
+
+input
+{
+    background: transparent;
+    border-color:#0261a0;
+    color: white;
+}
+
+textarea
+{
+    background: transparent;
+    border-color: #0261a0;
+    color: white;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgb(168, 167, 167);
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}

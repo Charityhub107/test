@@ -1,0 +1,6 @@
+.no-drop {cursor: no-drop;}
+.nav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
