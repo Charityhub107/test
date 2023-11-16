@@ -44,6 +44,9 @@ textarea {
   top: 0px;
   z-index: 2;
 }
+.mission{
+  width: 60vw;
+}
 
 .desktop-text {
   display: inline;
@@ -57,6 +60,9 @@ textarea {
   }
   .mobile-text {
     display: inline;
+  }
+  .mission{
+    width: 80vw;
   }
 }
 
